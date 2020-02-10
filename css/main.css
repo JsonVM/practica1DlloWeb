@@ -13,6 +13,9 @@ li a{
 li a:hover{
     color: blue;
 }
+h1{
+    margin-top: 0;
+}
 body{
     background:#FE4365;
 }
@@ -37,3 +40,55 @@ div p{
 .color5{
     color:#83AF9B;
 }
+
+.container {
+    width: 1000px;
+    height: 500px;
+    background: darkgray;
+    margin: auto;
+    display: flex;
+}
+
+.item {
+    background: white;
+    width: 300px;
+    height: 500px;
+    margin: 1px ;
+}
+.item1 {   
+    background: white;
+    width: 700px;
+    height: 500px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.centrar{
+    justify-content: center;
+    display: flex;
+}
+
+.centrar > img{
+    border-radius: 3px;
+} 
+
+.arriba{
+    height: 10%;
+    background: grey;
+    display: flex;
+}
+.top-item1{
+    height: 90%;
+}
+.margin-text{
+    width: 5px;
+    height: 5px;
+    margin-top: 17px;
+}
+.agrupar {
+    justify-content: center;
+    display: flex;
+}
+

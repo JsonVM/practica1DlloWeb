@@ -4,7 +4,33 @@
     overflow: hidden;
 }
 
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    height: 70vh;
+}
+.carousel-caption h5{
+    color: #e9e9e9     ;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
 
+.carousel-caption p{
+    
+    color: #e9e9e9     ;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+.navbar a{
+    color: #a0a0a0 !important;
+}
+.nav-link{
+    color: #a0a0a0 !important;
+}
 .wrapper {
   --color: #1F242D;
   --color-invert: #ffffff;
@@ -49,7 +75,7 @@
 
 .wrapper .video video {
   position: fixed;
-  background: #ff2400 ;
+  background: #b2beb5  ;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -187,7 +213,7 @@
 }
 
 body {
-  background: #ff2400;
+  background: #b2beb5 ;
 
   font: 400 16px 'Poppins', sans-serif;
   display: -webkit-box;

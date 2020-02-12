@@ -1,27 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/recetas.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>recetas</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
-<body >
-    <center>
-    <h1>Recetas</h1>
-    
-    <img src="imagenes/postres-recetas.jpg" alt="postres-recetas" width="600" height="400">
-    
-    <h2><a href="recetas/crema-limon.html">Crema de limón con salsa rápida de fresas: receta de postre fácil sin horno</a></h2>
-    <img src="imagenes/crema-limon.jpg" alt="crema-limon" width="400" height="200">
-    
-    <h2><a href="recetas/tostadas-francesas.html">French toasts o tostadas francesas</a></h2>
-    <img src="imagenes/tostadas-francesas.jpg" alt="tostadas-francesas" width="400" height="200">
+<body>
+    <div class="bg">
 
-    <h2><a href="recetas/ensalada-arroz-pollo.html">Ensalada de arroz con pollo asado, espárragos y maíz con aliño especial</a></h2>
-    <img src="imagenes/ensalada-arroz-pollo.jpg" alt="ensalada-arroz-pollo" width="400" height="200">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Cocina</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">Nuestros Chefs</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Recetas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Registrarse</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
 
-    </center>
+        
+        <div class="container" id=cont1>
+        
+        <a href="recetas/crema-limon.html">
+            <div class="card bg-dark text-white" id="card1">
+                <img src="imagenes/crema-limon.jpg" class="card-img"> 
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Crema de limón</h1>
+                  <p class="card-text">Crema de limón con salsa rápida de fresas: receta de postre fácil sin horno.</p>
+                </div>
+              </div>
+        </a>
+    
+        <a href="recetas/tostadas-francesas.html">
+            <div class="card bg-dark text-white" id="card2">
+                <img src="imagenes/tostadas-francesas.jpg" class="card-img"> 
+                <div class="card-img-overlay">
+                  <h1 class="card-title">French toasts</h1>
+                  <p class="card-text">Crema de limón con salsa rápida de fresas: receta de postre fácil sin horno.</p>
+                </div>
+              </div>
+        </a>
+        </div>
+    
+        <div class="container" id=cont2>
+        
+            <a href="recetas/crema-limon.html">
+                <div class="card bg-dark text-white" id="card3">
+                    <img src="imagenes/crema-limon.jpg" class="card-img"> 
+                    <div class="card-img-overlay">
+                      <h1 class="card-title">Crema de limón</h1>
+                      <p class="card-text">Crema de limón con salsa rápida de fresas: receta de postre fácil sin horno.</p>
+                    </div>
+                  </div>
+            </a>
+        
+            </a>
+            </div>
+        </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

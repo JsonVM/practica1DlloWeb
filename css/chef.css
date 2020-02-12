@@ -1,3 +1,17 @@
+#chef1{
+  background-color: #f5eed2;
+  width: 100%;
+  overflow: hidden;
+}
+#chef2 li {
+  float: right;
+  align-items: center;
+}
+
+#sizer1 img{
+  width: 20vw;
+}
+
 #carouselExampleInterval {
     width: 100vw;
     height: 100vh;
@@ -26,6 +40,9 @@
     font-family: 'Lobster', cursive;
 }
 .navbar a{
+  font-family: 'Lobster', cursive;
+    font-size: 30px;
+    float:center;
     color: #a0a0a0 !important;
 }
 .nav-link{

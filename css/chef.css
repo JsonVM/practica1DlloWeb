@@ -1,7 +1,32 @@
+#textos h5{
+  font-family: font92889;
+  color: white;
+  float: right;
+  margin-top: -500px;
+  margin-right: 200px;
+  font-size: 50px;
+  
+ 
+}
+
+#textos p{
+  color: white;
+  font-family: font92889, Arial;
+  float: right;
+  margin-top: -400px;
+  margin-left: 300px;
+  font-size: 20px;
+}
+.border{
+  margin: 200px;
+}
+
 #chef1{
-  background-color: #f5eed2;
   width: 100%;
+  height: 100%;
   overflow: hidden;
+  background: #696969;
+
 }
 #chef2 li {
   float: right;
@@ -10,6 +35,7 @@
 
 #sizer1 img{
   width: 20vw;
+  
 }
 
 #carouselExampleInterval {

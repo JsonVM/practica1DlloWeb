@@ -2,6 +2,55 @@ ul li{
     display: inline-block;
     list-style-type: none;
 }
+#carouselExampleInterval{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;   
+}
+#carouselExampleInterval img{
+    filter: brightness(50%);
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    height: 70vh;
+}
+.carousel-caption h5{
+    color: #e9e9e9     ;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    
+    color: #e9e9e9     ;
+    font-size: 25px;
+    font-family: 'font92889'    , Arial;
+}
+
+#cont{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+#carouselExampleControls img{
+    filter: brightness(20%);
+}
+.navbar a{
+    font-family: 'Lobster', cursive;
+      font-size: 30px;
+      float:center;
+      color: #a0a0a0 !important;
+  }
+  .nav-link{
+      color: #a0a0a0 !important;
+  }
 ul{
     text-align: center;
 }
@@ -41,14 +90,6 @@ div p{
     color:#83AF9B;
 }
 
-.container {
-    width: 100%;
-    height: 50%;
-    margin: auto;
-    display: flex;
-    background: url(../imagenes/index.jpeg);
-}
-
 .item {
     background: white;
     width: 30%;
@@ -74,11 +115,7 @@ div p{
     border-radius: 3px;
 } 
 
-.arriba{
-    height: 10%;
-    display: flex;
-    background: url(../imagenes/index.jpeg);
-}
+
 .top-item1{
     height: 90%;
 }
@@ -90,14 +127,5 @@ div p{
 .agrupar {
     justify-content: center;
     display: flex;
-}
-
-.bg{
-    height: 100%;
-    background: url(../imagenes/index.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
 }
 

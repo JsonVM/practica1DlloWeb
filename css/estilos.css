@@ -7,14 +7,16 @@
 }
 
 body {
+    image-resolution: 700%;
     background: url(../imagen/receta.jpg);
     background-size: cover;
+    align-items: horizontal;
     background-attachment: fixed;
     font-family: Roboto;
 }
 
 .contenedor-form {
-    background: rgba(185, 7, 7, 0.7);
+    background: rgba(223, 167, 167, 0.7);
     max-width: 500px;
     width: 100%;
     margin: 48px auto;
@@ -33,15 +35,15 @@ body {
     font-size: 12px;
     line-height: 25px;
     text-align: center;
-    border-top: 2px solid #6c6f74;
-    border-bottom: 2px solid #6e767c;
+    border-top: 2px solid #d7dce4;
+    border-bottom: 2px solid #dbe4eb;
     cursor: pointer;
     transition: all .5s ease;
 }
 
 .contenedor-form .toggle:hover {
-    border-top: 2px solid #5a6d7c;
-    border-bottom: 2px solid #5a646d;
+    border-top: 2px solid #dde5eb;
+    border-bottom: 2px solid #dfe9f1;
 }
 
 .contenedor-form .toggle span {
@@ -55,6 +57,9 @@ body {
     line-height: 1;
 }
 .contenedor-form input[type="text"],
+.contenedor-form input[type="text"],
+.contenedor-form input[type="number"],
+.contenedor-form input[type="number"],
 .contenedor-form input[type="password"],
 .contenedor-form input[type="email"] {
     outline: none;
@@ -62,11 +67,11 @@ body {
     width: 100%;
     padding: 10px 15px;
     margin: 0 0 20px 0;
-    background: rgba(99, 86, 86, 0.5);
+    background: rgba(248, 244, 244, 0.5);
     color: #fff;
     border: none;
     border-radius: 2px;
-    border-bottom: 4px solid #425158;
+    border-bottom: 4px solid #d2dadd;
     box-sizing: border-box;
     font-family: Roboto;
     font-size: 14px;
@@ -75,6 +80,9 @@ body {
 }
 
 .contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="number"]:focus,
+.contenedor-form input[type="number"]:focus,
 .contenedor-form input[type="password"]:focus,
 .contenedor-form input[type="email"]:focus {
     border-bottom: 4px solid #31383d;
@@ -121,3 +129,4 @@ body {
 .contenedor-form .formulario:nth-child(2) {
     display: block;
 }
+

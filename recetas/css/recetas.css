@@ -1,4 +1,19 @@
 *{
-    margin: 30px;
+    margin: 10px;
 }
-
+div{
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h2{
+    font-size: xx-large;
+}
+.bg{
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
